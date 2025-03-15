@@ -2,6 +2,7 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
 import type { MenuItem } from "@/lib/types"
+import Image from "next/image"
 
 interface MenuSectionProps {
   title: string
@@ -33,7 +34,8 @@ export default function MenuSection({ title, items }: MenuSectionProps) {
             whileHover={{ y: -5 }}
           >
             <div className="h-48 bg-[#f0e6d2] relative overflow-hidden">
-              <img src="/placeholder.svg?height=400&width=600" alt={item.name} className="w-full h-full object-cover" />
+              <Image src={"/placeholder.svg?height=400&width=600"} className="w-full h-full object-cover" alt={item.name} fill />
+              {/* <img src="/placeholder.svg?height=400&width=600" alt={item.name} className="w-full h-full object-cover" /> */}
               <div className="absolute top-2 right-2 bg-[#D4AF37] text-white px-3 py-1 rounded-full font-bold">
                 {item.price}
               </div>

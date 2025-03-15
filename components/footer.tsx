@@ -41,6 +41,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p>&copy; {new Date().getFullYear()} Escape Lounge. All rights reserved.</p>
+          <p>Developed by: <a href="https://bytebasetech.com" target="_blank" rel="noopener noreferrer" className="text-[#D4AF37] hover:underline">BytebaseTech</a></p>
         </div>
       </div>
     </footer>

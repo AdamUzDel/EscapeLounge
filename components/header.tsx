@@ -36,7 +36,7 @@ export default function Header() {
           <Link href="/" className="text-white hover:text-[#D4AF37] transition-colors duration-300">
             Home
           </Link>
-          <Link href="#menu" className="text-white hover:text-[#D4AF37] transition-colors duration-300">
+          <Link href="food-menu" className="text-white hover:text-[#D4AF37] transition-colors duration-300">
             Menu
           </Link>
           <Link href="#about" className="text-white hover:text-[#D4AF37] transition-colors duration-300">
