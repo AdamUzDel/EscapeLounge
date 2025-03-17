@@ -69,6 +69,7 @@ export const starters: MenuItem[] = [
     description:
       "Classic and thickened puree of fresh pumpkin & Brocolli flavored with a dairy touch of perfection served with croutons.",
     price: "20K",
+    img_url: "/menu/broccoli_soup.jpg",
   },
   {
     name: "CLEAR CHICKEN & VEG BROTH",
