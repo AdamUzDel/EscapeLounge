@@ -28,7 +28,7 @@ export default function Home() {
       <Hero />
 
       <div className="container mx-auto px-4 py-16">
-        <h2 className="text-4xl font-bold text-center text-[#8B4513] mb-16">Our Menu</h2>
+        <h2 id="menu" className="text-4xl font-bold text-center text-[#8B4513] mb-16">Our Menu</h2>
 
         <MenuSection title="Breakfast" items={breakfast} />
         <MenuSection title="Starters" items={starters} />

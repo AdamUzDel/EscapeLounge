@@ -6,33 +6,39 @@ export const breakfast: MenuItem[] = [
     description:
       "A perfect cocktail of tropical fruits, avocado slice, Boiled eggs, sauteed spinach, mixed steamed veg served with a seasonal juice or a hot beverage.",
     price: "30K",
+    img_url: "/menu/kitiko_breakfast.JPG",
   },
   {
     name: "KITIKO SPECIAL BREAKFAST",
     description:
       "Freshly steamed cassava, gonja, scrambled eggs, & guacamole sauce - served with a signature juice or tea.",
     price: "25K",
+    img_url: "/menu/kitiko.jpg",
   },
   {
     name: "ENGLISH BREAKFAST",
     description:
       "A combination of beef sausages, becon, eggs of choice, mushroom, toasted with bread, home fries, baked beans with hot beverage or sweetened juice.",
     price: "32K",
+    img_url: "/menu/healthy_breakfast.JPG",
   },
   {
     name: "Chapatti",
     description: "Freshly made chapatti",
     price: "3K",
+    img_url: "/menu/chapati.jpg",
   },
   {
     name: "A pair of beef sausages",
     description: "Juicy beef sausages",
     price: "10K",
+    img_url: "/menu/sausage.jpeg",
   },
   {
     name: "Spanish omellet",
     description: "Comes with toasted bread",
     price: "10K",
+    img_url: "/menu/spanish-omellette.webp",
   },
 ]
 

@@ -1,6 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
 import { ChevronDown } from "lucide-react"
+import Image from "next/image"
 
 export default function Hero() {
   const scrollToMenu = () => {
@@ -12,13 +13,15 @@ export default function Hero() {
 
   return (
     <div className="relative h-screen flex items-center justify-center bg-[#2D1E0F] text-white overflow-hidden">
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-black/50"></div>
-        <img
-          src="/placeholder.svg?height=1080&width=1920"
+        <div className="absolute inset-0 bg-black/90">
+        <Image
+          src="/hero-bg.jpg?height=1080&width=1920"
           alt="Escape Lounge Background"
-          className="w-full h-full object-cover"
-        />
+          fill
+          className="object-cover"
+          priority
+        />    
+
       </div>
 
       <div className="container mx-auto px-4 z-10 text-center">
