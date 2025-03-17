@@ -48,18 +48,21 @@ export const starters: MenuItem[] = [
     description:
       "Leafy your diet worries with our classic mixed lettuce, Sausages, grilled chicken, hard boiled eggs, avocado, sweat corn, fresh tomato with 1000 island dressing.",
     price: "30K",
+    img_url: "/menu/cobb_salad.jpg",
   },
   {
     name: "TRADITIONAL GREEK SALAD",
     description:
       "Indulge in the flavours of midtternean classic sweet peppers, crunchy cucumbers, red onions, tomatoes and olives topped with feta cheese and a hint of venaigrate dressing.",
     price: "25K",
+    img_url: "/menu/trad_greek_salad.JPG",
   },
   {
     name: "POTATO SALAD",
     description:
       "Slightly sweet creamy mayo smooth and chunky potatoes typically served chilled with a simple garnish of paprika.",
     price: "25K",
+    img_url: "/menu/potato_salad.webp",
   },
   {
     name: "BROCOLLI & PUMPKIN SOUP",
